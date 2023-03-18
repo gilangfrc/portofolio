@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portofolio">
+    <meta name="author" content="Gilang Fathur Rachman">
+    <meta name="keywords" content="Portofolio, Gilang Fathur Rachman, Web Developer">
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Gilang Fathur Rachman</title>
+    <link rel="icon" type="icon/ico" href="/img/icon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="/css/mdb.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3 px-5" style="top:-60px">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" alt="logo" width="25">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="bi bi-list fs-2"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link fs-5 active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#project">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    
+      <div class="toast-container p-3 top-0 start-50 translate-middle-x position-fixed mt-5">
+        <div class="toast" id="toast">
+          <div class="toast-body text-center">
+            <p class="fs-6 mb-0"><i class="bi bi-check-circle-fill me-2"></i>Thank you for your message</p>
+          </div>
+        </div>
+      </div>
+
+      <section id="home" class="p-5 bg-dark text-light text-center d-flex align-items-center">
+          <div class="container py-5">
+              <h1 class="display-2 mb-5 animate__animated animate__fadeInUp">Gilang Fathur Rachman</h1>
+              <p class="display-6 animate__animated animate__fadeInUp animate__delay-1s">Web Developer</p>
+              <div class="fixed-bottom position-absolute mb-5 arrow-down">
+                <h1 class="animate__animated animate__bounce animate__infinite animate__slow"><i class="bi bi-chevron-compact-down display-3"></i></h1>
+              </div>
+          </div>
+      </section>
+
+      <section id="about" class="p-5 bg-light d-flex align-items-center">
+          <div class="container py-3">
+              <div class="row text-center title-area">
+                  <div class="col-lg"><h2 class="fw-bold mb-5 title">ABOUT</h2></div>
+              </div>
+              <div class="row position-relative gx-5">
+                  <div class="col-sm-6">
+                      <p class="fs-5 profile">I am a recent computer science graduate looking to build things that i've on the internet. My passion is in building exceptional digital experiences through accessible human-centered products. my goal is to start a career focused on creating responsive and scalable web apps that solve interesting everyday problems that delight end-users.</p>    
+                      <button type="button" id="download" class="btn btn-dark w-50 fs-4 mt-2 mb-5">Download CV</button>  
+                  </div>
+                  <div class="col-sm-6">
+                      <h4 class="m-0 fw-bold mb-2">Skills</h4>
+                      <div class="row">
+                        <div class="col-12">
+                          <img src="https://skillicons.dev/icons?i=html,css,js,php,mysql,bootstrap,jquery,laravel&perline=4" alt="skills">
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col d-flex justify-content-center">
+                  <a href="https://github.com/gilangfrc" target="_blank" class="text-decoration-none text-dark"><i class="fs-3 bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/gilang-fathur-rachman-490539247" target="_blank" class="text-decoration-none text-dark mx-4"><i class="fs-3 bi bi-linkedin"></i></a>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="project" class="p-5 bg-dark text-light text-center h-100">
+          <div class="container py-3 h-100 project-area">
+            <div class="row text-center title-area">
+              <div class="col-lg"><h2 class="fw-bold mb-5 title">PROJECT</h2></div>
+            </div>
+
+            <div class="row g-4">
+              
+              <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 25rem;">
+                  <div class="bg-image hover-zoom hover-overlay">
+                    <div class="position-absolute px-2 py-1 card-tag">
+                      <p class="mb-0">Internship Project</p>
+                    </div>
+                    <img src="/img/epc.png" class="card-img-top project-img" alt="epc">
+                    <a href="https://app.epc.gilangfrc.com/" target="_blank">
+                      <div class="mask" style="background-color: rgba(29, 29, 29, 0.5)">
+                        <span class="fs-5 text-light demo">View Demo</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text text-dark">A web application that can process order data, stock data, finished goods data, and delivery data</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 25rem;">
+                  <div class="bg-image hover-zoom hover-overlay">
+                    <div class="position-absolute px-2 py-1 card-tag">
+                      <p class="mb-0">College Project</p>
+                    </div>
+                    <img src="/img/payment.png" class="card-img-top project-img" alt="payment">
+                    <a href="https://app.payment.gilangfrc.com/" target="_blank">
+                      <div class="mask" style="background-color: rgba(29, 29, 29, 0.5)">
+                        <span class="fs-5 text-light demo">View Demo</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text text-dark">A web application with payment gateway integration to make it easier for students to pay school fees</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 25rem;">
+                  <div class="bg-image hover-zoom hover-overlay">
+                    <div class="position-absolute px-2 py-1 card-tag">
+                      <p class="mb-0">College Project</p>
+                    </div>
+                    <img src="/img/e-commerce.png" class="card-img-top project-img" alt="e-commerce">
+                    <a href="https://app.e-commerce.gilangfrc.com/" target="_blank">
+                      <div class="mask" style="background-color: rgba(29, 29, 29, 0.5)">
+                        <span class="fs-5 text-light demo">View Demo</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text text-dark">A B2B e-commerce web application that makes it easy for customers to make purchases</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 25rem;">
+                  <div class="bg-image hover-zoom hover-overlay">
+                    <div class="position-absolute px-2 py-1 card-tag">
+                      <p class="mb-0">Personal Project</p>
+                    </div>
+                    <img src="/img/quiz.png" class="card-img-top project-img" alt="quiz">
+                    <a href="https://app.quiz.gilangfrc.com/" target="_blank">
+                      <div class="mask" style="background-color: rgba(29, 29, 29, 0.5)">
+                        <span class="fs-5 text-light demo">View Demo</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text text-dark">A multiple choice quiz web application with 2 types of users</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                <div class="card" style="width: 25rem;">
+                  <div class="bg-image hover-zoom hover-overlay">
+                    <div class="position-absolute px-2 py-1 card-tag">
+                      <p class="mb-0">Personal Project</p>
+                    </div>
+                    <img src="/img/lazytools.png" class="card-img-top project-img" alt="epc">
+                    <a href="https://lazytools.gilangfrc.com/" target="_blank">
+                      <div class="mask" style="background-color: rgba(29, 29, 29, 0.5)">
+                        <span class="fs-5 text-light demo">View Demo</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text text-dark">A web application that offers a collection of tools that are very useful for internet users</p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+      </section>
+
+      <section id="contact" class="p-5 bg-light text-dark d-flex align-items-center">
+          <div class="container py-3">
+            <div class="row text-center title-area">
+              <div class="col-lg"><h2 class="fw-bold mb-5 title">CONTACT</h2></div>
+            </div>
+            <div class="row position-relative">
+              <div class="col-lg-6">
+              
+                <div class="row mb-4">
+                  <div class="col-sm-1">
+                    <div class="fs-4 text-dark">
+                      <i class="bi bi-envelope-fill"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-5"> 
+                    <h3 class="fs-5 mt-1">Email</h3>
+                    <p class="text-muted m-0">gilangrachman10@gmail.com</p>
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="col-sm-1">
+                    <div class="fs-4 text-dark">
+                      <i class="bi bi-telephone-fill"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-5"> 
+                    <h3 class="fs-5 mt-1">Phone</h3>
+                    <p class="text-muted m-0">+62 813 9810 8404</p>
+                  </div>
+                </div>
+                <div class="row mb-5">
+                  <div class="col-sm-1">
+                    <div class="fs-4 text-dark">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-5"> 
+                    <h3 class="fs-5 mt-1">Address</h3>
+                    <p class="text-muted m-0">Karawang, Indonesia</p>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="col-lg-6">
+                <form id="form-contact">
+                  <div class="row">
+                    <div class="col-lg">
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control border-0 shadow-sm" name="name" id="name" autocomplete="off" required>
+                      </div>
+                    </div>
+                    <div class="col-lg">
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control border-0 shadow-sm" name="email" id="email" autocomplete="off" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control border-0 shadow-sm" name="subject" id="subject" autocomplete="off" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control border-0 shadow-sm" name="message" id="message" rows="5" autocomplete="off" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark mt-3">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <footer class="py-2 mb-3">
+        <p class="text-center text-muted">&copy; 2023 Gilang Fathur Rachman</p>
+      </footer>
+
+    </div>
+
+    <div class="fixed-bottom d-flex justify-content-end" style="left: auto">
+      <button id="to-top" class='btn btn-lg text-dark rounded-circle shadow'><i class="bi bi-caret-up-fill"></i></button>
+    </div>
+    
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/scrollreveal.min.js"></script>
+    <script src="/js/scripts.js"></script>
+    
+    <!-- Pixel Code for https://analytics.gilang.me/ -->
+    <script defer src="https://analytics.gilang.me/pixel/ngKgZkEZcN8kkSe0"></script>
+    <script defer src="https://analytics.gilang.me/pixel/xis06jZjF9HLLUDN"></script>
+    <!-- END Pixel Code -->
+
+</body>
+</html>
